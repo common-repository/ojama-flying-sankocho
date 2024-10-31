@@ -1,0 +1,50 @@
+#ojmsankocho{
+	position:fixed;
+	top:-450px;
+	width:500px;
+	height:450px;
+	z-index:10;
+}
+
+@media (min-width: 1010px){
+	#ojmsankocho{
+		left:80%;
+	}
+}
+ 
+ @media (max-width: 1010px){
+	#ojmsankocho{
+		left:50%;
+	}
+}
+
+#ojmflysan{
+	position:absolute;
+	top:100px;
+	left:25px;
+	width:400px;
+	height:327px;
+	background:url(./san0.png) no-repeat 0 -981px;
+}
+
+#ojmsunlight{
+	visibility:hidden;
+	position:absolute;
+	color:#0A94C6;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	top:80px;
+	left:0px;
+	width:100px;
+	height:100px;
+	background:url(./moon.png) no-repeat 0 -300px;
+}
+
+#ojmlittleearth{
+	visibility:hidden;
+	position:fixed;
+	top:-100px;
+	left:-100px;
+	width:100px;
+	height:100px;
+	background:url(./moon.png) no-repeat 0 -500px;
+}
